@@ -704,7 +704,8 @@ button{
 }
 
 .modal-icon{
-    fill: currentColor
+    fill: currentColor;
+    
 }
 
 .is-hidden{
