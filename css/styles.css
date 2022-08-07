@@ -408,17 +408,14 @@ button{
 }
 
 
-.work-portfolio-card:hover,
-.work-portfolio-card:focus,
-.portfolio-card:hover,
-.portfolio-card:focus{
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-
-}
-
 .work-portfolio-text-position:hover .work-portfolio-text,
 .work-portfolio-text-position:focus .work-portfolio-text{
     transform: translateY(0%);
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+.work-portfolio-text-position:hover,
+.work-portfolio-text-position:focus{
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
