@@ -409,7 +409,9 @@ button{
 
 
 .work-portfolio-card:hover,
-.work-portfolio-card:focus{
+.work-portfolio-card:focus,
+.portfolio-card:hover,
+.portfolio-card:focus{
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 
 }
@@ -417,6 +419,7 @@ button{
 .work-portfolio-text-position:hover .work-portfolio-text,
 .work-portfolio-text-position:focus .work-portfolio-text{
     transform: translateY(0%);
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .work-portfolio-text-wrap{
@@ -438,9 +441,12 @@ button{
     background: rgba(33, 150, 243, 0.9);
     height: 100%;
     width: 100%;
-    transform: translateY(100%);
+    transform: translateY(101%);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    overflow: auto}
+    overflow: auto;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+
+}
 
 
 
@@ -586,7 +592,7 @@ button{
 .client-img:hover,
 .client-img:focus{
     border: 1px solid #2196F3; 
-    fill: #2196F3;
+    
     
 }
 
