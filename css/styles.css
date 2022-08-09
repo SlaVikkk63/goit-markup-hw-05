@@ -83,6 +83,7 @@ body{
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -93,19 +94,18 @@ body{
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .navigation:hover,
 .navigation:focus{
     color: #2196F3;
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .navigation-header:hover ,
 .navigation-header:focus{
     color: #2196F3;
-    fill: #2196F3;
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 
 
@@ -334,6 +334,7 @@ body{
     border: none;
     border-radius: 4px;
     padding: 6px 22px;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
 }
 
@@ -342,7 +343,7 @@ body{
     color: #FFFFFF;
     background-color: #2196F3;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
 
 }
 
@@ -408,6 +409,7 @@ button{
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -415,19 +417,19 @@ button{
 .work-portfolio-text-position:focus .work-portfolio-text{
     transform: translateY(0%);
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 
 .work-portfolio-text-position:hover,
 .work-portfolio-text-position:focus{
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 
 .work-portfolio-text:hover,
 .work-portfolio-text:focus {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
 
 }
 
@@ -455,15 +457,16 @@ button{
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     overflow: auto;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-    
-
 }
 
-.work-portfolio-text:hover .work-portfolio-text-position ,
+.work-portfolio-text-position{
+    display: block;
+}
+
+.work-portfolio-text:hover .work-portfolio-text-position,
 .work-portfolio-text:focus .work-portfolio-text-position{
     transform: translateY(101%);
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
@@ -536,23 +539,26 @@ button{
     align-items: center;
     justify-content: center;
     color: #2196F3;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 
 .team-social-list:hover,
 .team-social-list:focus{
     background-color: #2196F3;
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 
 .team-social-list:hover .team-social-icon,
 .team-social-list:focus .team-social-icon{
     fill: #FFFFFF;
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 
     
 .team-social-icon{
-    fill: #AFB1B8;}
+    fill: #AFB1B8;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
 .benefits-img{
     width: 270px;
@@ -597,6 +603,7 @@ button{
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* .client-item{
@@ -612,8 +619,9 @@ button{
 .client-img:hover,
 .client-img:focus{
     border: 1px solid #2196F3; 
+    border-color: #2196F3;
     fill: #2196F3;
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 
 /* .client-item:hover,
@@ -670,24 +678,25 @@ button{
     align-items: center;
     justify-content: center;
     color: #2196F3;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 
 .join-up-list-social:hover,
 .join-up-list-social:focus{
-    background-color: #2196F3;
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    
+    background-color: #2196F3;  
 }
 
 .join-up-list-social:hover .join-up-icon,
 .join-up-list-social:focus .join-up-icon{
     fill: #FFFFFF;
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 
     
 .join-up-icon{
-    fill: #FFFFFF;}
+    fill: #FFFFFF;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
 .backdrob{
     position: fixed;
@@ -696,7 +705,8 @@ button{
     height: 100vh;
     background-color: rgba(0, 0, 0, 0.2);
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    }
+    
+}
 
 .backdrob.is-hidden .modal{
     transform: translate( -50%, -50% ) scale(0);
